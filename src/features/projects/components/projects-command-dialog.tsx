@@ -17,11 +17,11 @@ import { Doc } from "../../../../convex/_generated/dataModel";
 interface ProjectsCommandDialogProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
-}
+};
 
 const getProjectIcon = (project: Doc<"projects">) => {
   if (project.importStatus === "completed") {
-    return <FaGithub className="size-4 text-muted-foreground" />;
+    return <FaGithub className="size-4 text-muted-foreground" />
   }
 
   if (project.importStatus === "failed") {
@@ -35,7 +35,7 @@ const getProjectIcon = (project: Doc<"projects">) => {
   }
 
   return <GlobeIcon className="size-4 text-muted-foreground" />;
-};
+}
 
 export const ProjectsCommandDialog = ({
   open,
@@ -73,5 +73,5 @@ export const ProjectsCommandDialog = ({
         </CommandGroup>
       </CommandList>
     </CommandDialog>
-  );
+  )
 };
