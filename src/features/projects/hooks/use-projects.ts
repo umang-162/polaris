@@ -1,4 +1,5 @@
 /* eslint-disable react-hooks/purity */
+
 import { useMutation, useQuery } from "convex/react";
 
 import { api } from "../../../../convex/_generated/api";
@@ -42,11 +43,11 @@ export const useCreateProject = () => {
   );
 };
 
-export const useRenameProject = (projectId: Id<"projects">) => {
+export const useRenameProject = () => {
   return useMutation(api.projects.rename).withOptimisticUpdate(
     (localStore, args) => {
       const existingProject = localStore.getQuery(api.projects.getById, {
-        id: projectId,
+        id: args.id,
       });
 
       if (existingProject !== undefined && existingProject !== null) {
@@ -76,4 +77,8 @@ export const useRenameProject = (projectId: Id<"projects">) => {
       }
     },
   );
+};
+
+export const useUpdateProjectSettings = () => {
+  return useMutation(api.projects.updateSettings);
 };
