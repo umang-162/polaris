@@ -67,11 +67,28 @@ Most "prompt → app" tools generate code in a single request and hand you a sni
 
 ## Screenshots
 
-<!-- TODO: capture and commit these to docs/, then uncomment. -->
- ![Sign-up / projects view](docs/sign-up.png)
-![Landing / projects view](docs/landing.png)
-![In-browser editor + live WebContainer preview](docs/editor-preview.png) 
-![GitHub export flow](docs/github-export.png)
+### 🏠 Landing Page & 🔐 Sign Up
+
+<p align="center">
+  <img src="docs/landing.png" alt="Landing Page" width="48%" />
+  <img src="docs/sign-up.png" alt="Sign Up" width="48%" />
+</p>
+
+---
+
+### 💻 AI Code Editor + Live Preview
+
+<p align="center">
+  <img src="docs/editor-preview.png" alt="Editor Preview" width="850" />
+</p>
+
+---
+
+### 🚀 GitHub Export
+
+<p align="center">
+  <img src="docs/github-export.png" alt="GitHub Export" width="850" />
+</p>
 
 
 [↑ Back to top](#polaris)
