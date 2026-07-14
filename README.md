@@ -68,10 +68,10 @@ Most "prompt → app" tools generate code in a single request and hand you a sni
 ## Screenshots
 
 <!-- TODO: capture and commit these to docs/, then uncomment. -->
-<!-- ![Sign-up / projects view](docs/sign-up.png) -->
-<!-- ![Landing / projects view](docs/landing.png) -->
-<!-- ![In-browser editor + live WebContainer preview](docs/editor-preview.png) -->
-<!-- ![GitHub export flow](docs/github-export.png) -->
+ ![Sign-up / projects view](docs/sign-up.png)
+![Landing / projects view](docs/landing.png)
+![In-browser editor + live WebContainer preview](docs/editor-preview.png) 
+![GitHub export flow](docs/github-export.png)
 
 
 [↑ Back to top](#polaris)
